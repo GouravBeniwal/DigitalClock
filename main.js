@@ -14,7 +14,7 @@ function showTime() {
   ).innerHTML = `${day}, ${month} ${d}, ${year}`;
   document.getElementById("temh").innerHTML = `${h
     .toString()
-    .padStart(2, "0")}:${m.toPrecision(2)}:${s.toString().padStart(2, "0")}`;
+    .padStart(2, "0")}:${m.toString().padStart(2,"0")}:${s.toString().padStart(2, "0")}`;
   document.getElementById("spm").innerHTML = `${sm}`;
 }
 showTime();
