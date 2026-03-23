@@ -7,7 +7,7 @@ function showTime() {
   let year = date.getFullYear();
   let day = date.toLocaleString("en-US", { weekday: "long" });
   let d = date.getDate();
-  let sm = h < 12 ? "PM" : "AM";
+  let sm = h < 12 ? "AM" : "PM";
   h = h % 12 || 12;
   document.getElementById(
     "tarikh"
